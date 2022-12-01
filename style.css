@@ -1,0 +1,331 @@
+:root {
+  --main-background-color: #eeeeee;
+  --main-font-color: #5e5e5e;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  color: var(--main-font-color);
+}
+header {
+  margin-top: 20px;
+}
+h4,
+nav a:last-child {
+  color: #ff3998;
+}
+.free-nft {
+  color: black;
+}
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+}
+.auction a {
+  color: var(--main-font-color);
+}
+.auction p {
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+h2 {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button {
+  width: 120px;
+  height: 40px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #ff4d82, #ff6a3a, #96e09d) border-box;
+  border-radius: 20px;
+  border: 3px solid transparent;
+}
+.socials i {
+  width: 1rem;
+  padding-right: 20px;
+  opacity: 0.5;
+}
+.about th {
+  text-transform: uppercase;
+  border-bottom: 100px;
+}
+.devide {
+  height: 10px;
+  border: 1px solid black;
+}
+@media screen and (max-width: 428px) {
+  body {
+    width: 100vw;
+  }
+  nav img {
+    width: 150px;
+    padding-left: 20px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav i.fa-bars {
+    display: flex;
+    width: 1rem;
+    align-self: center;
+    margin-right: 20px;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nft-1 img {
+    display: none;
+    position: relative;
+    bottom: 50px;
+    width: 300px;
+  }
+  h3 {
+    font-size: 2rem;
+    color: black;
+  }
+  h1,
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  h4 {
+    margin-bottom: 10px;
+  }
+  .signup {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .launching {
+    padding-top: 50px;
+    padding-left: 20px;
+    flex: 2;
+  }
+  .nft-1 {
+    background-image: url(/images/graphic.svg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: 1;
+  }
+  .free-nft {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 70px;
+    padding-left: 30px;
+    background-image: url("/images/background.svg");
+    background-size: cover;
+    position: relative;
+    right: 20px;
+    height: 220px;
+    width: 448px;
+  }
+  .companies img {
+    width: 100%;
+  }
+  .companies > div:nth-child(4) {
+    display: none;
+  }
+  .companies {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .auction {
+    margin-top: 50px;
+    padding-left: 20px;
+  }
+  .cards {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 100px;
+  }
+  .cards > * {
+    background: #eeeeee;
+    border-radius: 20px;
+  }
+  .cards tr:nth-child(2) {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+  }
+  .cards table {
+    margin: 0 auto;
+    border-spacing: 10px;
+  }
+  .cards table td:nth-child(2) {
+    text-align: right;
+  }
+  .cards tr:first-child {
+    font-size: 0.7rem;
+  }
+  .series {
+    color: #ff8139;
+  }
+  table td {
+    width: 120px;
+  }
+  .line {
+    margin-bottom: 50px;
+    height: 1px;
+    background: var(--main-font-color);
+    opacity: 0.3;
+  }
+  .nftlanding {
+    margin-left: 20px;
+  }
+  .about {
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .credits > div:nth-child(2) {
+    display: none;
+  }
+  .credits {
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 429px) {
+  body {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 4rem;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 2rem;
+    color: black;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  nav i.fa-bars {
+    display: none;
+  }
+  nav {
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav li {
+    display: flex;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--main-font-color);
+    padding-left: 20px;
+  }
+  .launching h4 {
+    margin-bottom: 20px;
+  }
+  .signup {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .launching {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    align-items: centers;
+  }
+  .nft-1 img {
+    width: 500px;
+  }
+  .nft-1,
+  .nft-2 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+  .line {
+    margin-bottom: 100px;
+    height: 1px;
+    background: var(--main-font-color);
+    opacity: 0.3;
+  }
+  .free-nft {
+    width: 100%;
+    height: 220px;
+    position: relative;
+    left: 0;
+    background-image: url("/images/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .companies {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+  }
+  .cards {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 100px;
+  }
+  .cards > * {
+    background: #eeeeee;
+    border-radius: 20px;
+  }
+  .cards tr:nth-child(2) {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+  }
+  .cards table {
+    margin: 0 auto;
+    border-spacing: 10px;
+  }
+  .cards table td:nth-child(2) {
+    text-align: right;
+  }
+  .cards tr:first-child {
+    font-size: 0.7rem;
+  }
+  .series {
+    color: #ff8139;
+  }
+  table td {
+    width: 120px;
+  }
+  .nftlanding {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .credits {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+    margin-bottom: 50px;
+  }
+}
